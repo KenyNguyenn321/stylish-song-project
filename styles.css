@@ -27,3 +27,14 @@ body {
   
     border-radius: 5px;
   }
+  
+  /* Selects the paragraph that is the fifth child of body */
+  p:nth-child(5) {
+    background: revert;
+    box-shadow: revert;
+    padding: revert;
+  }
+  
+  a {
+    font-size: 12px;
+  }
